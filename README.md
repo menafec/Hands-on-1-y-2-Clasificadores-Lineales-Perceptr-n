@@ -43,17 +43,32 @@ Clase específica para tareas de clasificación binaria, basada en el Perceptró
    java Main
    ```
 
-## Ejemplo de Uso
-```java
-PerceptronClasificador perceptron = new PerceptronClasificador(2);
-double[][] datos = {
-    {0, 0, 0},
-    {0, 1, 0},
-    {1, 0, 0},
-    {1, 1, 1}
-};
-perceptron.entrenar(datos, 100, 0.1);
-System.out.println("Clasificación de (1,1): " + perceptron.predecir(new double[]{1, 1}));
-```
+## Ejemplo de Salida
+El clasificador ha convergido correctamente en la época 7
+
+Pesos finales: w1=1.0467 w2=0.5095 | Sesgo=-1.3917
+--- Entrenamiento finalizado ---
+
+Entrenando Perceptrón para OR...
+
+--- Inicio del entrenamiento ---
+
+Época 1:
+...
+Época 2:
+....
+
+Época 3:
+.....
+
+Época 4:
+......
+
+Época 5:
+.......
+
+El clasificador ha convergido correctamente en la época 5
+
+
 
 
